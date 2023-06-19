@@ -1,0 +1,199 @@
+/* Hero Section */
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(img/IMG_C70175829E39-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 2.0rem;
+  color: white;
+  height: 35vh;
+  padding-left: auto;
+  padding-bottom: 65vh;
+  padding-top: 25vh;
+}
+
+#avatar {
+  height: 30vh;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+#main-header {
+  padding-top: 5vh;
+}
+
+#tagline {
+  font-size: 1.5rem;
+}
+
+/* End Hero Section */
+
+/* Navbar */
+
+/* End Navbar */
+
+/* Carousel */
+
+#inspiration-heading {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  text-align: center;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.carousel-caption {
+    z-index: 1;
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* End Carousel */
+
+/*  Mission Section */
+
+#mission-section {
+  text-align: center;
+}
+
+
+#Historical-Weather-Calculator {
+  width: 50vh;
+  max-width: 100%;
+}
+
+#Match-Game {
+  width: 50vh;
+  max-width: 100%;
+}
+
+#mission-heading {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+/* End Mission Section */
+
+/* Start Skills */
+
+#skills-section {
+  text-align: center;
+}
+
+#skills-heading {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#html {
+  width: 17vh;
+  padding-bottom: 5vh;
+}
+
+#css {
+  width: 12vh;
+  padding-bottom: 5vh;
+}
+
+#bootstrap {
+  padding-top: 5vh;
+  width: 13vh;
+  padding-bottom: 5vh;
+}
+
+#java {
+  width: 15vh;
+  padding-bottom: 5vh;
+}
+
+#javascript {
+  width: 30vh;
+}
+
+/* End Skills */
+
+/* Start Contact */
+
+#contact-section {
+  text-align: center;
+}
+
+#twitter {
+  padding-top: 1vh;
+  width: 15vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+#twitter:hover {
+  background-image: url("img/Twitter2.png");
+  background-size: 20vh;
+  border-radius: 25px;
+}
+
+#instagram {
+  padding-top: 1vh;
+  width: 15vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+#instagram:hover {
+  background-image: url("img/Instagram2.jpg");
+  background-size: 20vh;
+  border-radius: 25px;
+}
+
+#linkedin {
+  padding-top: 1vh;
+  width: 15vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+#linkedin:hover {
+  background-image: url("img/Linkedin2.jpg");
+  background-size: 20vh;
+  border-radius: 25px;
+}
+
+/* End Contact */
+
+/* Start Footer */
+
+#footer-section {
+  text-align: center;
+}
+
+#footer {
+  padding-top: 5vh;
+  font-size: 3vh;
+  padding-bottom: 5vh;
+}
+
+#mission-target,
+#skills-target,
+#inspiration-target,
+#contact-target {
+  position: relative;
+  top: -150px;
+}
